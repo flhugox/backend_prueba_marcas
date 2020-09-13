@@ -14,7 +14,7 @@
 - Ejecutar migraciones y seeders
 - php artisan migrate 
 - php artisan db:seed
-- php artisan passport:install
+- (en caso de error oauth-private.key does not exist or is not readable ejecutar php artisan passport:install) 
 - Ejecutar php artisan passport:client --personal
 - Ejecutar php artisan key:generate
 - Después de crear el cliente de acceso personal, coloque el ID del cliente y el valor secreto de texto sin formato en el archivo de la aplicación:.env
