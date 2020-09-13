@@ -8,12 +8,15 @@
 </p>
 
 ## Ajustes Iniciales
+- Ejecutar Composer install
 - cp .env.example .env
 - Modificar configuracion de la DB en el archivo .env
 - Ejecutar migraciones y seeders
 - php artisan migrate 
 - php artisan db:seed
+- php artisan passport:install
 - Ejecutar php artisan passport:client --personal
+- Ejecutar php artisan key:generate
 - Después de crear el cliente de acceso personal, coloque el ID del cliente y el valor secreto de texto sin formato en el archivo de la aplicación:.env
 - **PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value**
 - **PPASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value**
