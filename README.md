@@ -7,6 +7,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Ajustes Iniciales
+
+- Modificar configuracion de la DB en el archivo .env
+- Ejecutar migraciones y seeders
+- ejecutar php artisan passport:client --personal
+- Después de crear el cliente de acceso personal, coloque el ID del cliente y el valor secreto de texto sin formato en el archivo de la aplicación:.env
+      - **PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value**
+       - **PPASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value**
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
