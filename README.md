@@ -8,13 +8,15 @@
 </p>
 
 ## Ajustes Iniciales
-
+- cp .env.example .env
 - Modificar configuracion de la DB en el archivo .env
 - Ejecutar migraciones y seeders
-- ejecutar php artisan passport:client --personal
+- php artisan migrate 
+- php artisan db:seed
+- Ejecutar php artisan passport:client --personal
 - Después de crear el cliente de acceso personal, coloque el ID del cliente y el valor secreto de texto sin formato en el archivo de la aplicación:.env
-      - **PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value**
-       - **PPASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value**
+- **PASSPORT_PERSONAL_ACCESS_CLIENT_ID=client-id-value**
+- **PPASSPORT_PERSONAL_ACCESS_CLIENT_SECRET=unhashed-client-secret-value**
 
 
 ## About Laravel
